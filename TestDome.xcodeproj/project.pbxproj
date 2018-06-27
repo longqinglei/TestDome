@@ -13,6 +13,7 @@
 		346786F41F3B4590002B5724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346786F21F3B4590002B5724 /* Main.storyboard */; };
 		346786F61F3B4590002B5724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 346786F51F3B4590002B5724 /* Assets.xcassets */; };
 		346786F91F3B4590002B5724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346786F71F3B4590002B5724 /* LaunchScreen.storyboard */; };
+		34B1547920E355FD00B85422 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B1547820E355FD00B85422 /* TestVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		346786F51F3B4590002B5724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		346786F81F3B4590002B5724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		346786FA1F3B4590002B5724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B1547720E355FD00B85422 /* TestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		34B1547820E355FD00B85422 /* TestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		346786E81F3B4590002B5724 /* TestDome */ = {
 			isa = PBXGroup;
 			children = (
+				34B1547620E355E400B85422 /* Test */,
 				346786EC1F3B4590002B5724 /* AppDelegate.h */,
 				346786ED1F3B4590002B5724 /* AppDelegate.m */,
 				346786EF1F3B4590002B5724 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				346786EA1F3B4590002B5724 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34B1547620E355E400B85422 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				34B1547720E355FD00B85422 /* TestVC.h */,
+				34B1547820E355FD00B85422 /* TestVC.m */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34B1547920E355FD00B85422 /* TestVC.m in Sources */,
 				346786F11F3B4590002B5724 /* ViewController.m in Sources */,
 				346786EE1F3B4590002B5724 /* AppDelegate.m in Sources */,
 				346786EB1F3B4590002B5724 /* main.m in Sources */,
@@ -311,6 +325,7 @@
 				346786FF1F3B4590002B5724 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
